@@ -1,0 +1,27 @@
+3. Write a PHP program for operators in PHP.// 3. Operators in PHP
+echo "<h2>3. Operators in PHP</h2>";
+
+// 3. Operators in PHP
+echo "<h2>3. Operators in PHP</h2>";
+
+$x = 20;
+$y = 10;
+
+echo "Addition = " . ($x + $y) . "<br>";
+echo "Subtraction = " . ($x - $y) . "<br>";
+echo "Multiplication = " . ($x * $y) . "<br>";
+echo "Division = " . ($x / $y) . "<br>";
+echo "Modulus = " . ($x % $y) . "<br>";
+
+if ($x > $y)
+{
+    echo "Comparison: x is greater than y<br>";
+}
+else
+{
+    echo "Comparison: y is greater than or equal to x<br>";
+}
+
+echo "<hr>";
+
+
