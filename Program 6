@@ -1,0 +1,24 @@
+<?php
+// String Declaration
+$string = "Welcome to PHP Programming";
+
+// 1. strlen() - Find the length of the string
+echo "Original String: " . $string . "<br><br>";
+
+echo "1. Length of String: " . strlen($string) . "<br><br>";
+
+// 2. strpos() - Find the position of a specific word
+echo "2. Position of 'PHP': " . strpos($string, "PHP") . "<br><br>";
+
+// 3. str_word_count() - Count the number of words
+echo "3. Number of Words: " . str_word_count($string) . "<br><br>";
+
+// 4. strrev() - Reverse the string
+echo "4. Reversed String: " . strrev($string) . "<br><br>";
+
+// 5. strtolower() - Convert to lowercase
+echo "5. Lowercase: " . strtolower($string) . "<br><br>";
+
+// 6. strtoupper() - Convert to uppercase
+echo "6. Uppercase: " . strtoupper($string);
+?>
