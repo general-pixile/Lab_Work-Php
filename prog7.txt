@@ -1,0 +1,12 @@
+2. Create a function named studentDetails() that accepts:
+Student Name
+Enrollment Number
+Semester
+
+function studentDetails($studentName, $enrollmentNumber, $semester)
+{
+    echo "<h3>Student Details</h3>";
+    echo "Student Name: $studentName<br>";
+    echo "Enrollment Number: $enrollmentNumber<br>";
+    echo "Semester: $semester<br><br>";
+}
