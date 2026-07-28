@@ -1,0 +1,12 @@
+1. Write a PHP program to print the values of array entered by user.
+
+<?php
+// Array entered by user
+$arr = array("Apple", "Banana", "Mango", "Orange", "Grapes");
+
+echo "Array Values are:<br>";
+
+foreach ($arr as $value) {
+    echo $value . "<br>";
+}
+?>
