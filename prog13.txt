@@ -1,0 +1,2 @@
+Write a PHP program to print the values of array entered by user.
+
