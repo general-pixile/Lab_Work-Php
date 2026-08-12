@@ -1,2 +1,2 @@
-Write a PHP program to print the values of array entered by user.
-
+Public class StudentTester{
+       public static void main(String[] args){
