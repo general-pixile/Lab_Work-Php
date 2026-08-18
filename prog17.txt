@@ -1,0 +1,21 @@
+<?php
+
+// Check whether the cookie already exists
+if (isset($_COOKIE['user_visited'])) {
+
+    // Returning user
+    echo "<h2>Welcome back!</h2>";
+    echo "You are a repeated visitor.";
+
+} else {
+
+    // New user
+    echo "<h2>Welcome!</h2>";
+    echo "You are a new visitor.";
+
+    // Create a cookie that expires after 1 year
+    setcookie("user_visited", "yes", time() + (86400 * 365), "/");
+}
+
+?>
+
